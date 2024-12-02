@@ -13,6 +13,7 @@ export interface ExtensionConfig {
     signin: string[]
     console: string[]
     containers: string[]
+    ssoLogin: string[]
   }
   browser: Browser
   delay: number
