@@ -13,5 +13,9 @@ setInterval(() => {
   const allowButtonEl = document.querySelector<HTMLButtonElement>('[data-testid="allow-access-button"]');
   if (allowButtonEl) {
     allowButtonEl.click();
+
+    setTimeout(() => {
+      window.close();
+    }, 1e3);
   }
 }, delay);
