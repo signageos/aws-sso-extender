@@ -17,6 +17,10 @@ const extensionConfig: ExtensionConfig = {
       'https://*.amazonaws-us-gov.com/federation/console?*',
       'https://*.amazonaws.cn/federation/console?*',
     ],
+    ssoLogin: [
+      'https://device.sso.eu-central-1.amazonaws.com/*',
+      'https://signageos.awsapps.com/start/*',
+    ],
   },
   browser,
   delay: 750,
